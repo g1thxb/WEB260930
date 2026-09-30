@@ -6,6 +6,11 @@ body {
   font-size : 14px;
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&display=swap');
+
+
+
 header, main, footer {
   margin : 10px;
   padding : 20px;
@@ -13,7 +18,9 @@ header, main, footer {
 }
 
 h1 { 
-  /* font-size : 5em; */
+  font-size : 3em;
+  font-family:"Black Han Sans", sans-serif;
+  fonr-weight : normal;
   color : green; 
   background-color : lightpink;
   border : solid 2px red; 
@@ -48,6 +55,12 @@ article div::after {
   color : darkgreen;
 }
 
+article div {
+  background-color : lightgray;
+  padding : 15px 5px 10px 5px;
+  margin-bottom : 20px;
+}
+
 a {
   text-decoration : none;
   color : darkred;
@@ -63,6 +76,15 @@ a:hover {
 }
 
 a:active {
-  background-color : darkred;
+  background-color : rgb(167,255,167);
   color : white;
+}
+
+article:nth-child(2) {
+  background-color : lightgreen;
+}
+
+h3 {
+  font-family: "Do Hyeon", sans-serif;
+  font-size : 1.5em;
 }
